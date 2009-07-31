@@ -7,42 +7,50 @@ use utf8;
 
 our $VERSION = '0.01';
 
-our @stopwords = qw(
-    AOP
-    API
+our @person_names = qw(
     Achim
     Adam
-    AspectJ
-    CPAN
     Conway
-    Coro
     Damian
-    DateTime
     Eilam
     Ekker
-    FirePHP
-    Firefox
     Florian
     Grünauer
     Heinz
     Helmberger
     Hofstetter
-    MVC
     Marcel
     Mark
-    Middleware
     Miyagawa
+    Ran
+    Takesako
+    Tatsuhiko
+);
+
+our @tech_names = qw(
+    AOP
+    API
+    AspectJ
+    CPAN
+    Coro
+    DateTime
+    DBI
+    EPP
+    FirePHP
+    Firefox
+    MVC
+    Middleware
     OO
     OOP
     PARC
     PHP
-    Ran
     ShipIt
     Spiffy
-    Takesako
-    Tatsuhiko
     W3CDTF
     YAML
+);
+
+our @stopwords = qw(
     administrativa
     behaviour
     blog
@@ -63,6 +71,7 @@ our @stopwords = qw(
     op
     pipe's
     placeholders
+    plugins
     pointcut
     pointcuts
     redispatch
@@ -81,7 +90,9 @@ our @stopwords = qw(
     yml
 );
 
-add_stopwords(@stopwords);
+# dedup
+my %words = map { $_ => 1 } @person_names, @tech_names, @stopwords;
+add_stopwords(sort keys %words);
 $ENV{LANG} = 'C';
 
 1;
