@@ -3,11 +3,10 @@ include 'Module::AutoInstall';
 
 name 'Pod-Wordlist-hanekomu';
 all_from 'lib/Pod/Wordlist/hanekomu.pm';
-perl_version '5.006';
 
-homepage 'http://search.cpan.org/dist/Pod-Wordlist-hanekomu/';
-bugtracker 'http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Wordlist-hanekomu';
-repository 'http://github.com/hanekomu/pod-wordlist-hanekomu/tree/master';
+auto_set_homepage;
+auto_set_bugtracker;
+auto_set_repository;
 
 requires 'Test::Spelling';
 requires 'Pod::Wordlist';

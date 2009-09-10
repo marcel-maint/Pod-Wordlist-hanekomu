@@ -2,6 +2,7 @@ package Pod::Wordlist::hanekomu;
 
 use strict;
 use warnings;
+use 5.006;
 use Test::Spelling;
 use utf8;
 
@@ -147,4 +148,3 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut
-
