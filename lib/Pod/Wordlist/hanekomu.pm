@@ -56,6 +56,7 @@ our @stopwords = qw(
     behaviour
     blog
     blogs
+    bugtracker
     callback
     callbacks
     chomp
@@ -65,6 +66,7 @@ our @stopwords = qw(
     crosscutting
     distname
     github
+    homepage
     init
     monkeypatch
     monkeypatches
