@@ -1,6 +1,3 @@
-[[meta title="Pod::Wordlist::hanekomu - Add words for spell checking POD"]]
-[[meta author="Marcel Gr&uuml;nauer, `<marcel@cpan.org>`"]]
-
 # NAME
 
 Pod::Wordlist::hanekomu - Add words for spell checking POD
