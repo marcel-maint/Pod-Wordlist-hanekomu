@@ -1,5 +1,5 @@
 [[meta title="Pod::Wordlist::hanekomu - Add words for spell checking POD"]]
-[[meta author="Marcel Gruumlnauer, `<marcel@cpan.org>`"]]
+[[meta author="Marcel Gr&uuml;nauer, `<marcel@cpan.org>`"]]
 
 # NAME
 
@@ -39,11 +39,11 @@ and github infrastructure.
 
 # AUTHORS
 
-Marcel Gruumlnauer, `<marcel@cpan.org>`
+Marcel Gr&uuml;nauer, `<marcel@cpan.org>`
 
 # COPYRIGHT AND LICENSE
 
-Copyright 2009 by Marcel Gruumlnauer
+Copyright 2009 by Marcel Gr&uuml;nauer
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
