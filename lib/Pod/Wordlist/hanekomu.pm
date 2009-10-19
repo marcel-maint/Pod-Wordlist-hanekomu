@@ -28,6 +28,7 @@ our @tech_names = qw(
   AOP
   API
   AspectJ
+  Babelfish
   CPAN
   Coro
   DateTime
@@ -50,6 +51,7 @@ our @tech_names = qw(
 );
 our @stopwords = qw(
   administrativa
+  backend
   behaviour
   blog
   blogs
@@ -76,6 +78,7 @@ our @stopwords = qw(
   plugins
   pointcut
   pointcuts
+  README
   redispatch
   ref
   san

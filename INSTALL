@@ -1,27 +1,42 @@
-This is the Perl distribution Pod-Wordlist-hanekomu.
+NAME
+    Pod::Wordlist::hanekomu - Add words for spell checking POD
 
-## Installation
+SYNOPSIS
+        use Test::Spelling;
+        use Pod::Wordlist::hanekomu;
+        all_pod_files_spelling_ok('lib');
 
-Pod-Wordlist-hanekomu installation is straightforward. If your CPAN shell is
-set up, you should just be able to do
+DESCRIPTION
+    This module, when loaded, adds stopwords for POD spell checking, that
+    is, words that should be ignored by the spell check.
 
-    % cpan Pod::Wordlist::hanekomu
+BUGS AND LIMITATIONS
+    No bugs have been reported.
 
-Download it, unpack it, then build it as per the usual:
+    Please report any bugs or feature requests through the web interface at
+    <http://rt.cpan.org>.
 
-    % perl Makefile.PL
-    % make && make test
+INSTALLATION
+    See perlmodinstall for information and options on installing Perl
+    modules.
 
-Then install it:
+AVAILABILITY
+    The latest version of this module is available from the Comprehensive
+    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
+    CPAN site near you. Or see
+    <http://search.cpan.org/dist/Pod-Wordlist-hanekomu/>.
 
-    % make install
+    The development version lives at
+    <http://github.com/hanekomu/pod-wordlist-hanekomu/>. Instead of sending
+    patches, please fork this project using the standard git and github
+    infrastructure.
 
-## Documentation
+AUTHORS
+    Marcel Grünauer, "<marcel@cpan.org>"
 
-Pod-Wordlist-hanekomu documentation is available as in POD. So you can do:
+COPYRIGHT AND LICENSE
+    Copyright 2009 by Marcel Grünauer
 
-    % perldoc Pod::Wordlist::hanekomu
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-to read the documentation online with your favorite pager.
-
-Marcel Gruenauer
