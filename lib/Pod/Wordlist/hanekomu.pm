@@ -68,11 +68,13 @@ our @stopwords = qw(
   github
   homepage
   hostname
+  indices
   init
   mixin
   monkeypatch
   monkeypatches
   monkeypatching
+  munge
   namespace
   ok
   op
