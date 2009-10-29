@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Test::Spelling;
 use utf8;
-our $VERSION      = '0.01';
+our $VERSION      = '0.02';
 our @person_names = qw(
   Achim
   Adam
@@ -64,13 +64,16 @@ our @stopwords = qw(
   configurators
   crosscutting
   distname
+  filename
   github
   homepage
+  hostname
   init
   mixin
   monkeypatch
   monkeypatches
   monkeypatching
+  namespace
   ok
   op
   pipe's
@@ -78,6 +81,7 @@ our @stopwords = qw(
   plugins
   pointcut
   pointcuts
+  prepends
   README
   redispatch
   ref
