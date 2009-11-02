@@ -90,6 +90,7 @@ our @stopwords = qw(
   san
   segment's
   shipit
+  startup
   stopword
   stopwords
   stringifies
