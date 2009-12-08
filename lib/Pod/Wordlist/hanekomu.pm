@@ -21,6 +21,8 @@ our @person_names = qw(
   Mark
   Miyagawa
   Ran
+  Ricardo
+  Signes
   Takesako
   Tatsuhiko
 );
@@ -37,6 +39,7 @@ our @tech_names = qw(
   FirePHP
   Firefox
   MVC
+  MakeMaker
   Markdown
   mkdn
   Middleware
@@ -46,7 +49,9 @@ our @tech_names = qw(
   PHP
   ShipIt
   Spiffy
+  svk
   W3CDTF
+  XS
   YAML
 );
 our @stopwords = qw(
@@ -70,6 +75,8 @@ our @stopwords = qw(
   hostname
   indices
   init
+  japanese
+  Joseki
   mixin
   monkeypatch
   monkeypatches
@@ -86,6 +93,7 @@ our @stopwords = qw(
   prepends
   README
   redispatch
+  reusability
   ref
   san
   segment's
@@ -101,6 +109,7 @@ our @stopwords = qw(
   whitelist
   whitelists
   wormhole
+  vim
   yml
 );
 
