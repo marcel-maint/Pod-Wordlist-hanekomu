@@ -34,6 +34,7 @@ our @tech_names = qw(
   CPAN
   Coro
   DateTime
+  Django
   DBI
   EPP
   FirePHP
@@ -47,6 +48,7 @@ our @tech_names = qw(
   OOP
   PARC
   PHP
+  PSGI
   ShipIt
   Spiffy
   svk
@@ -77,6 +79,7 @@ our @stopwords = qw(
   init
   japanese
   Joseki
+  middleware
   mixin
   monkeypatch
   monkeypatches
