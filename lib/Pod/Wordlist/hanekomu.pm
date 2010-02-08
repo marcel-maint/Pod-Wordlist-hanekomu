@@ -65,6 +65,7 @@ our @stopwords = qw(
   bugtracker
   callback
   callbacks
+  callee
   chomp
   chomps
   configurator
