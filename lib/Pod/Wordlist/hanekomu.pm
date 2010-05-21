@@ -79,6 +79,7 @@ our @stopwords = qw(
   adaptee
   adaptees
   administrativa
+  afterwards
   array's
   backend
   behaviour
@@ -108,6 +109,7 @@ our @stopwords = qw(
   init
   japanese
   Joseki
+  lookup
   kwalitee
   marshalling
   metadata
@@ -119,6 +121,7 @@ our @stopwords = qw(
   munge
   namespace
   namespaces
+  nestable
   ok
   op
   pipe's
