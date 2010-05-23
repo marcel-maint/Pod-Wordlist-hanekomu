@@ -62,6 +62,7 @@ our @tech_names = qw(
   README
   ShipIt
   Spiffy
+  SQL
   STDIN
   STDOUT
   STDERR
@@ -110,6 +111,7 @@ our @stopwords = qw(
   japanese
   Joseki
   lookup
+  lookups
   kwalitee
   marshalling
   metadata
@@ -158,6 +160,7 @@ our @stopwords = qw(
   username
   uuid
   value's
+  variable's
   wellformedness
   whitelist
   whitelists
