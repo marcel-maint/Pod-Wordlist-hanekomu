@@ -122,6 +122,7 @@ our @stopwords = qw(
   monkeypatching
   munge
   munger
+  munging
   namespace
   namespaces
   nestable

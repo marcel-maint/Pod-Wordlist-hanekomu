@@ -3,7 +3,7 @@ Revision history for Perl extension {{$dist->name}}
 {{$NEXT}}
     - added: afterwards, nestable, lookup. Are these such strange words or is
       my spell checker simply a bit... retarded?
-    - + SQL, lookups, variable's, munger
+    - + SQL, lookups, variable's, munger, munging
 
 1.100860  2010-03-27 23:53:59 Europe/Vienna
     - converted the distribution to Dist::Zilla-style
