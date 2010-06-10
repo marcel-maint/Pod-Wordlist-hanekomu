@@ -121,6 +121,7 @@ our @stopwords = qw(
   monkeypatches
   monkeypatching
   munge
+  munger
   namespace
   namespaces
   nestable
