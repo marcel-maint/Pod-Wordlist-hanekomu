@@ -145,6 +145,7 @@ our @stopwords = qw(
   shipit
   startup
   storable
+  storages
   stopword
   stopwords
   stringification
