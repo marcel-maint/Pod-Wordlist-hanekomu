@@ -5,6 +5,7 @@ use warnings;
 package Pod::Wordlist::hanekomu;
 # ABSTRACT: Add words for spell checking POD
 use Test::Spelling;
+set_spell_cmd 'aspell list';
 use utf8;
 our @person_names = qw(
   Achim
@@ -101,6 +102,7 @@ our @stopwords = qw(
   dotfile
   dotfiles
   filename
+  filenames
   formatter
   github
   hash's
