@@ -1,6 +1,8 @@
 Revision history for Perl extension {{$dist->name}}
 
 {{$NEXT}}
+
+1.102250  2010-08-13 14:33:51 Europe/Vienna
     - added: afterwards, nestable, lookup. Are these such strange words or is
       my spell checker simply a bit... retarded?
     - + SQL, lookups, variable's, munger, munging, storages, filenames
